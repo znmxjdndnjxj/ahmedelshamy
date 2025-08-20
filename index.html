@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>ahnedyuhf</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <!-- checkbox للتحكم بالفتح -->
+<input type="checkbox" id="sidebar-checkbox">
+
+<!-- زرار الأيقونة -->
+<label for="sidebar-checkbox" class="sidebar-toggle">
+  <i class="material-icons">menu_open</i>
+  <span>MENU</span>
+</label>
+
+<!-- النافذة الجانبية -->
+<div class="sidebar">
+  <h2>menu</h2>
+  <a href="" target="_blank" class="search">
+      <i class="material-icons">search</i>
+  </a>
+  <hr>
+  <a href="" target="_blank" class='link'>HOME</a>
+    <a href="" target="_blank" class="linkl">
+      About
+    </a>
+  <a href="" target="_blank" class="li">
+      <i class="material-icons">tty</i>
+  </a>
+  
+  <a href="" target="_blank" class="ln">
+      <i class="material-icons">logout</i>
+  </a>
+  <a href="https://google.com" target="_blank" class="error">
+      <i class="material-icons">error</i>
+  </a>
+  <a href="https://google.com" target="_blank" class="page">
+      <i class="material-icons">swap_horiz</i>
+  </a>
+</div>
+  <div id='fonts'> 
+    
+    
+    <a href="https://google.com" target="_blank" class="lin">
+      <i class="material-icons">help</i>help
+    </a>
+    
+  </div>
+  <h1 id='hello'>hello in   logen</h1>
+  <button onclick='sign()' id='sign'>sign in</button>
+  <div id='img'>
+  <img onclick='options()' id='imgs' src='images.png' alt='errol'> 
+    <img onclick='google()' id='imgs' src='تنزيل.png' alt='errol'> 
+    <img onclick='gmail()' id='imgs' src='تنزيل (1).png' alt='errol'> 
+    <img onclick='instgram()' id='imgs' src='تنزيل.jpeg' alt='errol'> 
+  </div>
+  <div id='app'>
+    
+     <div id='input'>
+       <h1 id='ahmed'>Ahmed.com</h1>
+       <input type='text' id='text' placeholder='user name'>
+       <input type='number' id='number' placeholder='password'>
+       <div>
+         <button onclick="button()"id='button'>log in</button>       </div>
+       <a class="forgot" href='https://google.com' target="_blank">forgot password? </a>
+       <div class='rid'>
+         <input  type="checkbox" id='ridl'> <span>remember me</span>
+         
+       </div>
+     </div>
+    
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
